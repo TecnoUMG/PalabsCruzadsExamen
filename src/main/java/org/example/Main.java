@@ -1,8 +1,4 @@
 package org.example;
-
-
-import org.example.PalabrasCruzadasService;
-
 import java.util.Arrays;
 import java.util.List;
 public class Main {
