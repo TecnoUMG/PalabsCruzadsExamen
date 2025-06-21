@@ -11,7 +11,7 @@ public class Main {
                 {'W', 'O', 'R', 'L', 'D', '#', '#', '#', '#', '#'},
                 {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#'},
                 {'J', 'A', 'V', 'A', '#', '#', '#', '#', '#', '#'},
-                {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#'},
+                {'#', '#', '#', '#', 'C', 'A', 'T', '#', '#', '#'},
                 {'C', 'O', 'D', 'E', '#', '#', '#', '#', '#', '#'},
                 {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#'},
                 {'P', 'Y', 'T', 'H', 'O', 'N', '#', '#', '#', '#'},
@@ -19,7 +19,7 @@ public class Main {
         };
 
         List<String> diccionario = Arrays.asList(
-                "HELLO", "WORLD", "JAVA", "CODE", "PYTHON"
+                "HELLO", "WORLD", "JAVA", "CODE", "CAT","PYTHON"
         );
 
         PalabrasCruzadasService service = new PalabrasCruzadasService();

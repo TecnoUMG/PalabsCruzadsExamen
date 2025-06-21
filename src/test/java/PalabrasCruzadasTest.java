@@ -16,7 +16,7 @@ public class PalabrasCruzadasTest {
                 {'W','O','R','L','D','#','#','#','#','#'},
                 {'#','#','#','#','#','#','#','#','#','#'},
                 {'J','A','V','A','#','#','#','#','#','#'},
-                {'#','#','#','#','#','#','#','#','#','#'},
+                {'#','#','#','#','#','C','A','T','#','#'},
                 {'C','O','D','E','#','#','#','#','#','#'},
                 {'#','#','#','#','#','#','#','#','#','#'},
                 {'P','Y','T','H','O','N','#','#','#','#'},
@@ -24,7 +24,7 @@ public class PalabrasCruzadasTest {
         };
 
         List<String> diccionario = Arrays.asList(
-                "HELLO", "WORLD", "JAVA", "CODE", "PYTHON"
+                "HELLO", "WORLD", "JAVA", "CODE", "CAT", "PYTHON"
         );
 
         assertTrue(service.validarTablero(board, diccionario));
